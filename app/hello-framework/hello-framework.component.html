@@ -1,0 +1,10 @@
+<h1>
+  Hover to show the text on the button
+</h1>
+
+<button mat-raised-button
+  color="primary"
+  (click)="release.emit()"
+  matTooltip="This is a test tooltip!" matTooltipPosition="right">
+  <span class="button-text" style="font-size: 20px">Test&nbsp;&nbsp;</span><mat-icon>save</mat-icon>
+</button>
